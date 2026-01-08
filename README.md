@@ -8,3 +8,10 @@ A consumer/ process will perform the work and give the user the results as soon 
 
 For Queue system, we need Python RQ which uses Redis in the backend. 
 Valkey is also an alternatibe to Redis
+Running:
+main.py
+python -m rq.cli worker
+To run worker in mac
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES 
+python3 -m rq.cli worker
