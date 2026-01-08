@@ -5,5 +5,3 @@ queue = Queue(connection=Redis(
     host="localhost",
     port="6379"
 ))
-
-queue.enqueue()
